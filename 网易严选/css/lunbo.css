@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.lunbo{
+
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+}
+.lunbo>div{
+    text-align: center;
+}
+.lunbo>div>img{
+    width: 1920px;
+    height: 420px;
+    margin: 0 -100%;
+}
+.lunbo>p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 1090px;
+    display: flex;
+    justify-content: space-between;
+}
+.lunbo>p>button{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    border: none;
+    color: #fff;
+    background: #E2C199;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    outline: none;
+}
+.lunbo>p>button:hover{
+    background: #CC9756;
+}
+.lunbo>ul{
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 12px;
+    text-align: center;
+}
+.lunbo>ul>li{
+    display: inline-block;
+    line-height: 8px;
+    list-style: none;
+    margin: 0 8px;
+    position: relative;
+}
+.lunbo>ul>li>button{
+    width: 8px;
+    height: 8px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+    background: #fff;
+    outline: none;
+}
+.lunbo>ul>li>button:hover{
+    width: 8px;
+    height: 8px;
+    bottom: -3px;
+    left: -3px;
+    border: 3px solid #E2C199;
+    background: #7b673c;
+    border-radius: 50%;
+    box-sizing: content-box;
+}
+.lunbo>ul>li>.spot{
+    width: 8px;
+    height: 8px;
+    bottom: -3px;
+    left: -3px;
+    border: 3px solid #E2C199;
+    background: #7b673c;
+    border-radius: 50%;
+    box-sizing: content-box;
+}
